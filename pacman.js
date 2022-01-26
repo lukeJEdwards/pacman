@@ -10,7 +10,7 @@ class Vector2 extends p5.Vector {
 }
 
 load_sprites = (filenames) =>
-  filenames.map((file) => loadImage(`assets/${file}.png`));
+  filenames.map((file) => loadImage(`assets/pacman/${file}.png`));
 
 class Pacman {
   constructor(x, y) {
